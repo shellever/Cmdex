@@ -1,0 +1,31 @@
+D:\download\android-misc-tools\decompile-apk\apks
+> apktool ECPPad-release.apk
+I: Using Apktool 2.0.1 on ECPPad-release.apk
+I: Loading resource table...
+I: Decoding AndroidManifest.xml with resources...
+I: Loading resource table from file: C:\Users\winfor\apktool\framework\1.apk
+I: Regular manifest package...
+I: Decoding file-resources...
+I: Decoding values */* XMLs...
+I: Baksmaling classes.dex...
+I: Copying assets and libs...
+I: Copying unknown files...
+I: Copying original files...
+---------------------------
+apkfile: ECPPad-release.apk
+outdir: output
+
+D:\download\android-misc-tools\decompile-apk\apks
+> dex2jar ECPPad-release.apk
+apk_dex=ECPPad-release.apk
+in_ext=.apk
+extract dex from ECPPad-release.apk
+dex2jar classes.dex -> .\classes-dex2jar.jar
+
+D:\download\android-misc-tools\decompile-apk\apks
+> jd-gui classes-dex2jar.jar
+dex2jar_jar=D:\download\android-misc-tools\decompile-apk\apks\classes-dex2jar.jar
+
+
+D:\download\android-misc-tools\decompile-apk\apks
+>
